@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+int a[100000], n, l;
+
+void backtrack(int k) {
+    if (k == n) {
+        for (int i = 0; i < n; i++) {
+            cout << a[i] << " ";
+        }
+        
+        if (n % 2 == 0) {
+            for (int i = n - 1; i >= 0; i--) {
+                cout << a[i] << " ";
+            }
+        } 
+        else {
+            for (int i = n - 2; i >= 0; i--) {
+                cout << a[i] << " ";
+            }
+        }
+        cout << "\n";
+        return;
+    }
+
+    for (int i = 0; i <= 1; i++) {
+        a[k] = i;
+        backtrack(k + 1);
+    }
+}   
+
+int main(){
+    cin >> l;
+    l--;
+    n = (l / 2) + 1;
+    backtrack(0);
+    return 0;
+}
+
+

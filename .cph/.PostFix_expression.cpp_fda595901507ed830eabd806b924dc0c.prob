@@ -1,0 +1,1 @@
+{"name":"Local: PostFix_expression","url":"d:\\DSA\\DSA_practice\\PostFix_expression.cpp","tests":[{"id":1774867433163,"input":"2\n231*+9-\n875*+9-","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA\\DSA_practice\\PostFix_expression.cpp","group":"local","local":true}

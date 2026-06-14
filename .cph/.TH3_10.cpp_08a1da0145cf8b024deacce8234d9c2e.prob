@@ -1,0 +1,1 @@
+{"name":"Local: TH3_10","url":"d:\\DSA\\DSA_practice\\TH3_10.cpp","tests":[{"id":1776956287594,"input":"5 6\n1 2 6\n1 3 7\n2 4 2\n3 4 9\n3 5 3\n4 5 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA\\DSA_practice\\TH3_10.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: soivacuu_dfs","url":"d:\\DSA\\DSA_practice\\soivacuu_dfs.cpp","tests":[{"id":1771691966265,"input":"8 8\n.######. \n#..o...# \n#.####.# \n#.#v.#.# \n#.#.o#o# \n#o.##..# \n#.v..v.# \n.######.","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA\\DSA_practice\\soivacuu_dfs.cpp","group":"local","local":true}
